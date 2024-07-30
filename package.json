@@ -1,5 +1,5 @@
 {
-  "name": "electron-vue-template",
+  "name": "electron-vue-chromatic",
   "version": "0.1.0",
   "description": "A minimal Electron + Vue application",
   "main": "main/main.js",
@@ -15,11 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deluze/electron-vue-template.git"
+    "url": "git+https://github.com/KarenHuang0421/electron-vue-chromatic.git"
   },
   "author": {
-    "name": "Deluze",
-    "url": "https://github.com/Deluze"
+    "name": "Karen",
+    "url": "https://github.com/KarenHuang0421"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.6.1",
@@ -45,7 +45,7 @@
     "vue": "^3.3.8"
   },
   "bugs": {
-    "url": "https://github.com/deluze/electron-vue-template/issues"
+    "url": "https://github.com/KarenHuang0421/electron-vue-chromatic/issues"
   },
-  "homepage": "https://github.com/deluze/electron-vue-template#readme"
+  "homepage": "https://github.com/KarenHuang0421/electron-vue-chromatic#readme"
 }
