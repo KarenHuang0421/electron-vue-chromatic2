@@ -8,23 +8,44 @@
     "build": "node scripts/build.js && electron-builder",
     "build:win": "node scripts/build.js && electron-builder --win",
     "build:mac": "node scripts/build.js && electron-builder --mac",
-    "build:linux": "node scripts/build.js && electron-builder --linux"
+    "build:linux": "node scripts/build.js && electron-builder --linux",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_3fdac1a7abacce4"
   },
-  "repository": "https://github.com/deluze/electron-vue-template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deluze/electron-vue-template.git"
+  },
   "author": {
     "name": "Deluze",
     "url": "https://github.com/Deluze"
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "^1.6.1",
+    "@storybook/addon-essentials": "^8.2.6",
+    "@storybook/addon-interactions": "^8.2.6",
+    "@storybook/addon-links": "^8.2.6",
+    "@storybook/addon-onboarding": "^8.2.6",
+    "@storybook/blocks": "^8.2.6",
+    "@storybook/test": "^8.2.6",
+    "@storybook/vue3": "^8.2.6",
+    "@storybook/vue3-vite": "^8.2.6",
     "@vitejs/plugin-vue": "^4.4.1",
     "chalk": "^4.1.2",
     "chokidar": "^3.5.3",
+    "chromatic": "^11.5.6",
     "electron": "^27.1.0",
     "electron-builder": "^24.2.1",
+    "storybook": "^8.2.6",
     "typescript": "^5.2.2",
     "vite": "^4.5.0"
   },
   "dependencies": {
     "vue": "^3.3.8"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/deluze/electron-vue-template/issues"
+  },
+  "homepage": "https://github.com/deluze/electron-vue-template#readme"
 }

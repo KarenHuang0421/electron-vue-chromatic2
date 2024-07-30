@@ -1,6 +1,9 @@
 node_modules
 dist
 build
+package-lock.json
 
 .vscode
 .idea
+*storybook.log
+storybook-static
