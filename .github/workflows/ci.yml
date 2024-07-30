@@ -26,3 +26,6 @@ jobs:
 
     - name: Build and test
       run: npm run build
+
+    - name: Build chromatic
+      run: npm run chromatic
