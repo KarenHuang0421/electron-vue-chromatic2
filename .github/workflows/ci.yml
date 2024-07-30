@@ -27,5 +27,7 @@ jobs:
     - name: Build and test
       run: npm run build
 
-    - name: Build chromatic
+    - name: Publish to Chromatic
       run: npm run chromatic
+      env:
+        CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
