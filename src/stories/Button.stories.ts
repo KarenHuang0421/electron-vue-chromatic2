@@ -37,7 +37,7 @@ export const Secondary: Story = {
   args: {
     primary: false,
     label: 'Button',
-    backgroundColor: 'blue'
+    backgroundColor: '#c4c4ff'
   },
 };
 
