@@ -12,6 +12,7 @@ window.electronAPI.sendMessage('Hello from App.vue!');
     <a href="https://vuejs.org/" target="_blank">
       <img src="/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+    <span>test if storybook rebuild? or if pr show on chromatic?</span>
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
