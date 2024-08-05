@@ -10,6 +10,7 @@
           </g>
         </svg>
         <h1>Acme</h1>
+        <h2>subtitle</h2>
       </div>
       <div>
         <span class="welcome" v-if="user">Welcome, <b>{{ user.name }}</b>!</span>
